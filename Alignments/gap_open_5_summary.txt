@@ -1,0 +1,42 @@
+;   MEGA-CC (Molecular Evolutionary Genetics Analysis Compute Core)
+;
+;   Suggested Citation for MEGA-CC 7:
+;
+;   Kumar S, Stecher G, Tamura K (2016)
+;   MEGA7: Molecular Evolutionary Genetics Analysis 7.0 for bigger datasets
+;   Molecular Biology and Evolution 33:1870-1874
+;
+;   Kumar S, Stecher G, Peterson D, and Tamura K (2012)
+;   MEGA-CC: Computing Core of Molecular Evolutionary Genetics
+;   Analysis Program for Automated and Iterative Data Analysis.
+;   Bioinformatics (2012) 28:2685-2686 (Epub 2012 Aug 24)
+
+[General Info]
+
+	Data Type                               = amino acid
+	No. of Taxa                             =       18
+	Data File                               = 'Iwasaki2002.fasta'
+	Settings File                           = '/home/victormello/Programs/mega7/MAOs/clustal_align_protein_open5.mao'
+	Command Line                            = /home/victormello/Programs/mega7/megacc -a /home/victormello/Programs/mega7/MAOs/clustal_align_protein_open5.mao -d Iwasaki2002.fasta -o gap_open_5
+
+[Analysis Settings]
+
+	ProteinPWGapOpenPenalty                 = 5.00
+	ProteinPWGapExtendPenalty               = 0.20
+	ProteinGapOpenPenalty                   = 5.00
+	ProteinGapExtendPenalty                 = 0.20
+	ProteinMatrix                           = BLOSUM
+	ResidueSpecificPenalty                  = True
+	HydrophilicPenalty                      = True
+	GapSeparationDistance                   = 4
+	EndGapSeparation                        = False
+	UseNegativeMatrix                       = False
+	DivergentCutoff                         = 30
+	ResetGaps                               = False
+
+[Analysis Statistics]
+
+	Start Time                              = 23-8-23 17:06:33
+	End Time                                = 23-8-23 17:06:37
+	Execution Time                          =    3.470 (seconds)
+	Peak Memory Used(Working Set)           = Not available

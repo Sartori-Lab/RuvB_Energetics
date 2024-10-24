@@ -1,0 +1,19 @@
+Their accession numbers in Swiss-prot are 
+P08577 for E. coli RuvB (Eco), 
+P44631 for Haemophilus influenzae RuvB (Hin), 
+Q51426 for Pseudomonas aeruginosa RuvB (Pae), 
+O32055 for Bacillus subtilis RuvB (Bsu), 
+Q50629 for Mycobacterium tuberculosis RuvB (Mtu), 
+P40833 for Mycobacterium leprae RuvB (Mle), 
+Q56313 for Thermotoga maritima RuvB (Tma), 
+Q56214 for Thermus aquaticus thermophilus RuvB (Taq), 
+P96115 for Treponema pallidum RuvB (Tpa), 
+Q57396 for Synechocystis sp. (strain PCC 6803 / Kazusa) RuvB (Syn), 
+O25699 for Helicobacter pylori RuvB (Hpy), 
+P70828 for Borrelia burgdorferi RuvB (Bbu), 
+Q49425 for Mycoplasma genitalium RuvB (Mge), 
+P75242 for Mycoplasma pneumoniae RuvB (Mpn), 
+O84044 for Chlamydia trachomatis RuvB (Ctr), 
+Q9ZDE5 for Rickettsia prowazekii RuvB (Rpr), 
+Q9Z8F3 for Chlamydia pneumoniae RuvB (Cpn) and 
+Q9X719 for Deinococcus radiodurans RuvB (Dra)

@@ -1,0 +1,9 @@
+PV Version: 1.3
+Date: 2023-03-09 02:22:21 da tarde
+Protein: /home/victormello/Git/StrainAnalysis/data/pdb/RuvB_Monomers/s4t2_D.pdb
+Volume probe radius: 0,080A -> 0,020A
+Surface probe minimum distance: 0,1A
+Number of atoms and residues: 4935, 313
+
+Protein               Total Volume (A3)      Void Volume       VDW Volume  Packing Density  Time Taken (ms)
+s4t2_D                        42397,011        12269,973        30127,038            0,711  182401
