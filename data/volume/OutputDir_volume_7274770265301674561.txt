@@ -1,0 +1,7 @@
+PV Version: 1.3
+Date: 2025-02-21 05:55:15 da tarde
+Protein directory: /home/victormello/Git/RuvB_Energetics/data/volume
+Volume probe radius: 0,080A -> 0,020A
+Surface probe minimum distance: 0,1A
+
+Protein               Total Volume (A3)      Void Volume       VDW Volume  Packing Density  Time Taken (ms)

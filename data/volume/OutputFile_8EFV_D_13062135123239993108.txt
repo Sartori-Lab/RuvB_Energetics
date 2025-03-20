@@ -1,0 +1,10 @@
+PV Version: 1.3
+Date: 2025-02-21 12:28:52 da tarde
+Protein: /home/victormello/Git/RuvB_Energetics/data/8EFV_D.pdb
+Volume probe radius: 0,080A -> 0,020A
+Surface probe minimum distance: 0,1A
+Reading hydrogens is turned on, but couldn't find any hydrogens in 8EFV_D!
+Number of atoms and residues: 2324, 311
+
+Protein               Total Volume (A3)      Void Volume       VDW Volume  Packing Density  Time Taken (ms)
+8EFV_D                        36865,536        11677,793        25187,743            0,683  141774
