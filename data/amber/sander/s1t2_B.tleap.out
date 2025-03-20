@@ -1,0 +1,59 @@
+-I: Adding /home/victormello/Programs/amber24/dat/leap/prep to search path.
+-I: Adding /home/victormello/Programs/amber24/dat/leap/lib to search path.
+-I: Adding /home/victormello/Programs/amber24/dat/leap/parm to search path.
+-I: Adding /home/victormello/Programs/amber24/dat/leap/cmd to search path.
+-f: Source force_field_s1t2_B.txt.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./force_field_s1t2_B.txt
+----- Source: /home/victormello/Programs/amber24/dat/leap/cmd/leaprc.protein.ff19SB
+----- Source of /home/victormello/Programs/amber24/dat/leap/cmd/leaprc.protein.ff19SB done
+Log file: ./leap.log
+Loading parameters: /home/victormello/Programs/amber24/dat/leap/parm/parm19.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
+Loading parameters: /home/victormello/Programs/amber24/dat/leap/parm/frcmod.ff19SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff19SB AA-specific backbone CMAPs for protein 07/25/2019
+Loading library: /home/victormello/Programs/amber24/dat/leap/lib/amino19.lib
+Loading library: /home/victormello/Programs/amber24/dat/leap/lib/aminoct12.lib
+Loading library: /home/victormello/Programs/amber24/dat/leap/lib/aminont12.lib
+Loading PDB file: ../data/amber/pdb4amber/s1t2_B.amber.pdb
+  Added missing heavy atom: .R<CTHR 312>.A<OXT 15>
+  total atoms in file: 2455
+  Leap added 2458 missing atoms according to residue templates:
+       1 Heavy
+       2457 H / lone pairs
+Checking Unit.
+
+/home/victormello/Programs/amber24/bin/teLeap: Warning!
+The unperturbed charge of the unit (-17.000000) is not zero.
+
+/home/victormello/Programs/amber24/bin/teLeap: Note.
+Ignoring the warning from Unit Checking.
+
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 951 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CTHR	1
+	NTHR	1
+  )
+ (no restraints)
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 1; Notes = 1.

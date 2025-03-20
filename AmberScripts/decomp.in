@@ -1,0 +1,13 @@
+&general
+   startframe=1, endframe=1, interval=1,
+   verbose=1,
+   keep_files=0,
+/
+
+&gb
+   igb=5, saltcon=0.150,
+/
+
+&decomp
+   idecomp=1, print_res="1-100"
+/

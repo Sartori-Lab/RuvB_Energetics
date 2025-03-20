@@ -1,0 +1,45 @@
+
+          -------------------------------------------------------
+          Amber 24 SANDER                              2024
+          -------------------------------------------------------
+
+| Run on 03/18/2025 at 11:50:40
+
+|   Executable path: sander
+| Working directory: /home/victormello/Git/RuvB_Energetics/AmberScripts
+|          Hostname: Unknown
+  [-O]verwriting output
+
+File Assignments:
+|  MDIN: one_cycle.in                                                          
+| MDOUT: ../data/amber/sander/s0-At2_A.strip.strip.full.out                    
+|INPCRD: s0-At2_A.strip.strip.inpcrd                                           
+|  PARM: s0-At2_A.strip.strip.prmtop                                           
+|RESTRT: restrt                                                                
+|  REFC: refc                                                                  
+| MDVEL: mdvel                                                                 
+| MDFRC: mdfrc                                                                 
+|  MDEN: mden                                                                  
+| MDCRD: mdcrd                                                                 
+|MDINFO: ../data/amber/sander/s0-At2_A.strip.strip.summary.out                 
+|  MTMD: mtmd                                                                  
+|INPDIP: inpdip                                                                
+|RSTDIP: rstdip                                                                
+|INPTRA: inptraj                                                               
+
+
+ Here is the input file:
+
+One repetition                                                                 
+&cntrl                                                                         
+   imin=1, maxcyc=1, ntb=1, cut=9.0, ntpr=1,                                   
+/                                                                              
+
+--------------------------------------------------------------------------------
+   1.  RESOURCE   USE: 
+--------------------------------------------------------------------------------
+
+| Flags:                                                                        
+ getting new box info from bottom of inpcrd
+
+  Error opening unit   30: File "s0-At2_A.strip.strip.inpcrd" is missing or unreadable                

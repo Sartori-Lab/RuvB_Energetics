@@ -1,0 +1,27 @@
+-I: Adding /home/victormello/Programs/amber24/dat/leap/prep to search path.
+-I: Adding /home/victormello/Programs/amber24/dat/leap/lib to search path.
+-I: Adding /home/victormello/Programs/amber24/dat/leap/parm to search path.
+-I: Adding /home/victormello/Programs/amber24/dat/leap/cmd to search path.
+-f: Source force_field_s0-At2_A.strip.strip.txt.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./force_field_s0-At2_A.strip.strip.txt
+----- Source: /home/victormello/Programs/amber24/dat/leap/cmd/leaprc.protein.ff19SB
+----- Source of /home/victormello/Programs/amber24/dat/leap/cmd/leaprc.protein.ff19SB done
+Log file: ./leap.log
+Loading parameters: /home/victormello/Programs/amber24/dat/leap/parm/parm19.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA + ff19SB
+Loading parameters: /home/victormello/Programs/amber24/dat/leap/parm/frcmod.ff19SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff19SB AA-specific backbone CMAPs for protein 07/25/2019
+Loading library: /home/victormello/Programs/amber24/dat/leap/lib/amino19.lib
+Loading library: /home/victormello/Programs/amber24/dat/leap/lib/aminoct12.lib
+Loading library: /home/victormello/Programs/amber24/dat/leap/lib/aminont12.lib
+
+/home/victormello/Programs/amber24/bin/teLeap: Fatal Error!
+Could not open file ../data/amber/pdb4amber/s0-At2_A.strip.strip.strip.amber.pdb: No such file or directory
+
+Exiting LEaP: Errors = 1; Warnings = 0; Notes = 0.

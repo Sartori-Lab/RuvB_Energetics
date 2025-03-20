@@ -1,0 +1,145 @@
+
+          -------------------------------------------------------
+          Amber 24 SANDER                              2024
+          -------------------------------------------------------
+
+| Run on 03/06/2025 at 00:57:28
+
+|   Executable path: sander
+| Working directory: /home/victormello/Git/RuvB_Energetics/AmberScripts
+|          Hostname: Unknown
+  [-O]verwriting output
+
+File Assignments:
+|  MDIN: one_cycle.in                                                          
+| MDOUT: ../data/amber/sander/s0-At2_hex.full.out                              
+|INPCRD: s0-At2_hex.inpcrd                                                     
+|  PARM: s0-At2_hex.prmtop                                                     
+|RESTRT: restrt                                                                
+|  REFC: refc                                                                  
+| MDVEL: mdvel                                                                 
+| MDFRC: mdfrc                                                                 
+|  MDEN: mden                                                                  
+| MDCRD: traj.nc                                                               
+|MDINFO: ../data/amber/sander/s0-At2_hex.summary.out                           
+|  MTMD: mtmd                                                                  
+|INPDIP: inpdip                                                                
+|RSTDIP: rstdip                                                                
+|INPTRA: inptraj                                                               
+
+
+ Here is the input file:
+
+One repetition                                                                 
+&cntrl                                                                         
+   imin=1, maxcyc=1, ntb=1, cut=6.0, ntpr=1,                                   
+/                                                                              
+
+--------------------------------------------------------------------------------
+   1.  RESOURCE   USE: 
+--------------------------------------------------------------------------------
+
+| Flags:                                                                        
+ getting new box info from bottom of inpcrd
+|  INFO: Old style inpcrd file read
+
+| peek_ewald_inpcrd: Box info found
+|Largest sphere to fit in unit cell has radius =    40.189
+| New format PARM file being parsed.
+| Version =    1.000 Date = 03/06/25 Time = 00:56:56
+ NATOM  =   93582 NTYPES =      15 NBONH =   78845 MBONA  =   14994
+ NTHETH =   33626 MTHETA =   20272 NPHIH =   67410 MPHIA  =   64784
+ NHPARM =       0 NPARM  =       0 NNB   =  248075 NRES   =   23234
+ NBONA  =   14994 NTHETA =   20272 NPHIA =   64784 NUMBND =      63
+ NUMANG =     150 NPTRA  =     163 NATYP =      31 NPHB   =       0
+ IFBOX  =       1 NMXRS  =      25 IFCAP =       0 NEXTRA =       0
+ NCOPY  =       0
+
+| CMAP information read from topology file: 
+
+|     Memory Use     Allocated
+|     Real             8090278
+|     Hollerith         303982
+|     Integer          8502127
+|     Max Pairs       15971328
+|     nblistReal       1122984
+|     nblist Int       6799831
+|       Total           195327 kbytes
+
+| Note: 1-4 EEL scale factors are being read from the topology file.
+
+| Note: 1-4 VDW scale factors are being read from the topology file.
+| Duplicated    0 dihedrals
+| Duplicated    0 dihedrals
+|CMAP: Reticulating splines.
+
+     BOX TYPE: RECTILINEAR
+
+--------------------------------------------------------------------------------
+   2.  CONTROL  DATA  FOR  THE  RUN
+--------------------------------------------------------------------------------
+
+default_name                                                                    
+
+General flags:
+     imin    =       1, nmropt  =       0
+
+Nature and format of input:
+     ntx     =       1, irest   =       0, ntrx    =       1
+
+Nature and format of output:
+     ntxo    =       2, ntpr    =       1, ntrx    =       1, ntwr    =       1
+     iwrap   =       0, ntwx    =       0, ntwv    =       0, ntwe    =       0
+     ioutfm  =       1, ntwprt  =       0, idecomp =       0, rbornstat=      0
+
+Potential function:
+     ntf     =       1, ntb     =       1, igb     =       0, nsnb    =      25
+     ipol    =       0, gbsa    =       0, iesp    =       0
+     dielc   =   1.00000, cut     =   6.00000, intdiel =   1.00000
+
+Frozen or restrained atoms:
+     ibelly  =       0, ntr     =       0
+
+Energy minimization:
+     maxcyc  =       1, ncyc    =      10, ntmin   =       1
+     dx0     =   0.01000, drms    =   0.00010
+
+Ewald parameters:
+     verbose =       0, ew_type =       0, nbflag  =       1, use_pme =       1
+     vdwmeth =       1, eedmeth =       1, netfrc  =       0
+     Box X =   80.379   Box Y =   94.137   Box Z =  113.494
+     Alpha =   90.000   Beta  =   90.000   Gamma =   90.000
+     NFFT1 =   80       NFFT2 =   96       NFFT3 =  120
+     Cutoff=    6.000   Tol   =0.100E-04
+     Ewald Coefficient =  0.47291
+     Interpolation order =    4
+
+--------------------------------------------------------------------------------
+   3.  ATOMIC COORDINATES AND VELOCITIES
+--------------------------------------------------------------------------------
+
+default_name                                                                    
+ begin time read from input coords =     0.000 ps
+
+ Number of triangulated 3-point waters found:    21364
+
+     Sum of charges from parm topology file = -99.00000075
+     Assuming uniform neutralizing plasma
+
+--------------------------------------------------------------------------------
+   4.  RESULTS
+--------------------------------------------------------------------------------
+
+ ---------------------------------------------------
+ APPROXIMATING switch and d/dx switch using CUBIC SPLINE INTERPOLATION
+ using   5000.0 points per unit in tabled values
+ TESTING RELATIVE ERROR over r ranging from 0.0 to cutoff
+| CHECK switch(x): max rel err =   0.2738E-14   at   2.422500
+| CHECK d/dx switch(x): max rel err =   0.8465E-11   at   2.832440
+ ---------------------------------------------------
+
+ * NB pairs          675    15971241 exceeds capacity (    15971328)
+     SIZE OF NONBOND LIST =   15971328
+ SANDER BOMB in subroutine nonbond_list
+ Non bond list overflow!
+ check MAXPR in locmem.F90
